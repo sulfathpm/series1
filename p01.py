@@ -1,0 +1,5 @@
+n=input('enter a list:')
+n=list(map(int,n.split()))
+x=set(n)
+y=list(x)
+print(y)

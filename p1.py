@@ -1,0 +1,11 @@
+l=[1,2,3,4]
+y=l.append(1)
+print(y)
+x=11,6,7
+m=l.extend(x)
+print(m)
+n=l.sort()
+print(n)
+l1=['dragonfruit','mango','Apple','grapes','corn']
+q=l1.sort(key=str.lower)
+print(q)

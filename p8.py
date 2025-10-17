@@ -1,0 +1,7 @@
+a=set(map(int,input('enter a list of no').split()))
+b=set(map(int,input('enter a list of no').split()))
+print('if they\'re of equal length:',len(a)==len(b))
+print('if they\'re of equal sum:',sum(a)==sum(b))
+print('if there\'s any equal value:',len(a&b))
+print('difference between both list:',set(a)-set(b))
+print('is list empty?',bool(not len(a)))
